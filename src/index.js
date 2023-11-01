@@ -4,13 +4,17 @@ import './index.css';
 /* import App from './App'; */
 // import Presentacion from './Presentacion';
 import Contador from './Contador';
+import List from './list/List';
+import App  from './tooltip/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
     {/* <Presentacion/> */}
-    <Contador/>
+    {/* <Contador/> */}
+    <List />
+    {/* <App /> */}
+    
   </React.StrictMode>
 );
 
