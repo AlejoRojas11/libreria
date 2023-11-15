@@ -31,7 +31,7 @@ function Header() {
                                 <a className="nav-link disabled">Registrarse</a>
                             </li>
                             <li className="nav-item">
-                                <LoginIcon/>
+                                
                                 <a className="nav-link disabled">Iniciar sesión</a>
                             </li>
                         </ul>
