@@ -31,8 +31,7 @@ function Header() {
                                 <a className="nav-link disabled">Registrarse</a>
                             </li>
                             <li className="nav-item">
-                                
-                                <a className="nav-link disabled">Iniciar sesión</a>
+                                <a className="nav-link active">Iniciar sesión</a>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
