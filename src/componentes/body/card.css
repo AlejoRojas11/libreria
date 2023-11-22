@@ -1,0 +1,32 @@
+.divCards{
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    flex-flow: row wrap;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 9px;
+}
+.card2{
+    padding: 1%;
+    height: max-content;
+    margin: 5%;
+    width: 19%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 9px;
+}
+img{
+    border-radius: 9px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.card2 h5{
+    text-align: center;
+}
+.card2 p{
+    text-align: justify;
+}
+.card2 button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
