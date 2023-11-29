@@ -16,27 +16,38 @@ function Header() {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
+
+                            <Link to='/tutoriales'>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Tutoriales</a>
+                                <a className="nav-link">Tutoriales</a>
                             </li>
+                            </Link>
+                            <Link to='/referencias'>
                             <li className="nav-item">
                                 <a className="nav-link disabled">Referencias</a>
                             </li>
+                            </Link>
+                            <Link to='/recursos'>
                             <li className="nav-item">
                                 <a className="nav-link disabled">Recursos</a>
                             </li>
+                            </Link>
+                            <Link to='/contacto'>
                             <li className="nav-item">
                                 <a className="nav-link disabled">Contacto</a>
                             </li>
+                            </Link>
                             <Link to='/registro'>
                                 <li className="nav-item">
 
                                     <a className="nav-link disabled">Registrarse</a>
                                 </li>
                             </Link>
+                            <Link to='/login'>
                             <li className="nav-item">
                                 <a className="nav-link active">Iniciar sesión</a>
                             </li>
+                            </Link>
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
