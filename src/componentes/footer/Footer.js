@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 
-function footer() {
+function Footer() {
     return (
         <div><footer class="text-center text-lg-start bg-light text-muted">
 
@@ -128,4 +128,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer

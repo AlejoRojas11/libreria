@@ -1,5 +1,7 @@
 import React from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
+
 function Header() {
     return (
         <div className='contenedor'>
@@ -26,10 +28,12 @@ function Header() {
                             <li className="nav-item">
                                 <a className="nav-link disabled">Contacto</a>
                             </li>
-                            <li className="nav-item">
+                            <Link to='/registro'>
+                                <li className="nav-item">
 
-                                <a className="nav-link disabled">Registrarse</a>
-                            </li>
+                                    <a className="nav-link disabled">Registrarse</a>
+                                </li>
+                            </Link>
                             <li className="nav-item">
                                 <a className="nav-link active">Iniciar sesión</a>
                             </li>

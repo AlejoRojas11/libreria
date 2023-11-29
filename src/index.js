@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Router from './Router';
 // import Presentacion from './Presentacion';
 // import Contador from './Contador';
 // import List from './list/List';
@@ -13,7 +13,7 @@ root.render(
     {/* <Presentacion/> */}
     {/* <Contador/> */}
     {/* <List /> */}
-    <App/>
+    <Router/>
     
   </React.StrictMode>
 );
