@@ -19,28 +19,28 @@ function Header() {
 
                             <Link to='/tutoriales'>
                             <li className="nav-item">
-                                <a className="nav-link">Tutoriales</a>
+                                <a className="nav-link active" >Tutoriales</a>
                             </li>
                             </Link>
                             <Link to='/referencias'>
                             <li className="nav-item">
-                                <a className="nav-link disabled">Referencias</a>
+                                <a className="nav-link active">Referencias</a>
                             </li>
                             </Link>
                             <Link to='/recursos'>
                             <li className="nav-item">
-                                <a className="nav-link disabled">Recursos</a>
+                                <a className="nav-link active">Recursos</a>
                             </li>
                             </Link>
                             <Link to='/contacto'>
                             <li className="nav-item">
-                                <a className="nav-link disabled">Contacto</a>
+                                <a className="nav-link active">Contacto</a>
                             </li>
                             </Link>
                             <Link to='/registro'>
                                 <li className="nav-item">
 
-                                    <a className="nav-link disabled">Registrarse</a>
+                                    <a className="nav-link active">Registrarse</a>
                                 </li>
                             </Link>
                             <Link to='/login'>
