@@ -3,13 +3,57 @@ import Footer from './footer/Footer'
 import Header from './header/Header'
 
 function Registro() {
+
+    // Se declara una variable Values
+    const [values, setValues]= useState({
+        nombre:"",
+        apellido:"",
+        email: "",
+        password: ""
+    })
+
+    const handleChange = (e) => {
+        const {name, value} =e.target
+        const newValues ={
+            //Spread operator
+            ...values,
+            [name]: value,
+        }
+        setValues(newValues)
+        }
+    
+        const handleSubmit = (e) => {
+            e.preventDefault()
+            fetch('http://localhost:3001/registro-usurio',{
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json', 'Accept': 'application/json'
+                },
+                body: JSON.stringify(values)
+            })
+
+            .then(response => {
+                if (response.status === 200) {
+                    alert('Usuario creado con exito')
+                }
+                else {
+                    alert('No fue posible crear el usuario '+ response.status)
+                }
+
+            })
+            .catch((error)=>{
+                alert("No fue posible finalizar el proceso de registro por un error "+ error)
+            })
+        }
+
     return (
         <div>
             <Header />
             <div class="container my-5 py-5">
 
                             <br></br>
-                            <form>
+                            <form onSubmit={handleSubmit}>
+                                
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputEmail4">Email</label>
