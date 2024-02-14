@@ -1,0 +1,144 @@
+[
+	{
+		"id": 1,
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:28:50.340Z"
+	},
+	{
+		"id": 2,
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:28:51.273Z"
+	},
+	{
+		"id": 3,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:29:51.590Z"
+	},
+	{
+		"id": 4,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:29:52.681Z"
+	},
+	{
+		"id": 5,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:37:40.052Z"
+	},
+	{
+		"id": 6,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:37:41.163Z"
+	},
+	{
+		"id": 7,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:39:26.071Z"
+	},
+	{
+		"id": 8,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:39:27.162Z"
+	},
+	{
+		"id": 9,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:43:51.308Z"
+	},
+	{
+		"id": 10,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:43:52.427Z"
+	},
+	{
+		"id": 11,
+		"nombres": "a",
+		"apellidos": "aa",
+		"email": "a@a.com",
+		"password": "123",
+		"fecha_creacion": "2024-02-14T19:48:04.900Z"
+	},
+	{
+		"id": 12,
+		"nombres": "a",
+		"apellidos": "aa",
+		"email": "a@a.com",
+		"password": "123",
+		"fecha_creacion": "2024-02-14T19:48:06.061Z"
+	},
+	{
+		"id": 13,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:49:50.646Z"
+	},
+	{
+		"id": 14,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T19:49:51.769Z"
+	},
+	{
+		"id": 15,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T20:22:46.228Z"
+	},
+	{
+		"id": 16,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T20:22:47.351Z"
+	},
+	{
+		"id": 17,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T20:26:37.731Z"
+	},
+	{
+		"id": 18,
+		"nombres": "",
+		"apellidos": "",
+		"email": "",
+		"password": "",
+		"fecha_creacion": "2024-02-14T20:26:38.827Z"
+	}
+]
