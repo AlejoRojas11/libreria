@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombres": "alejandro",
+        "apellidos": "rojas ",
+        "email": "alereus1234@hotmail.com",
+        "password": "As1007492813*",
+        "direccion": "clla45 Av 3 sur",
+        "identificacion": "1007492813",
+        "telefono": "3135470203",
+        "genero": "masculino",
+        "ciudadNacimiento": "Valdivia",
+        "fechaNacimiento": "2024-04-03",
+        "fecha_creación": "2024-03-06T19:03:27.153Z"
+    },
+    {
+        "id": 2,
+        "nombres": "jesus",
+        "apellidos": "polon",
+        "email": "mejiagutierrezjuancarlos436@gmail.com",
+        "password": "As1007492813*",
+        "direccion": "clla45 Av 3 sur",
+        "identificacion": "1007492813",
+        "telefono": "3135470203",
+        "genero": "femenino",
+        "ciudadNacimiento": "Zamora",
+        "fechaNacimiento": "2024-03-29",
+        "fecha_creación": "2024-03-06T19:21:04.542Z"
+    }
+]

@@ -2,6 +2,8 @@ import React from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
 
+
+
 function Header() {
     return (
         <div className='contenedor'>
@@ -17,11 +19,6 @@ function Header() {
                                 <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
 
-                            <Link to='/tutoriales'>
-                            <li className="nav-item">
-                                <a className="nav-link active" >Tutoriales</a>
-                            </li>
-                            </Link>
                             <Link to='/referencias'>
                             <li className="nav-item">
                                 <a className="nav-link active">Referencias</a>
@@ -46,6 +43,12 @@ function Header() {
                             <Link to='/login'>
                             <li className="nav-item">
                                 <a className="nav-link active">Iniciar sesión</a>
+                            </li>
+                            </Link>
+
+                            <Link to='/Usuariosregistrados'>
+                            <li className="nav-item">
+                                <a className="nav-link active"> Ver Usuarios registrados</a>
                             </li>
                             </Link>
                         </ul>

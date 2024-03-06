@@ -1,50 +1,19 @@
 const express = require('express');
 const app = express();
-const cors = require('cors')
-const fs = require('fs')
-const path = require('path')
-const bodyParser = require('body-parser')
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const userRegister = require('./controller/userController');
 
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(express.json())
-app.use(bodyParser.json())
-app.use(cors())
-
-let userFilePath = path.join(__dirname, 'usuariosRegistrados.json')
-let userJSON = fs.readFileSync(userFilePath, 'utf-8')
-let users = JSON.parse(fs.readFileSync(userFilePath, 'utf-8'))
-console.log(users.length)
-
+app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send(userJSON)
-})
+    res.send(userJSON);
+});
 
-app.post('/registro-usuario', function (req, res) {
-    
-    let ultimo = users.length
-    let usuarioNuevo = {
-        id: ultimo + 1,
-        nombres: req.body.nombres,
-        apellidos: req.body.apellidos,
-        email: req.body.email,
-        password: req.body.password,
-        fecha_creación: new Date()
-    }
+app.use(userRegister.register);
 
-    let userNuevo
-    if (userJSON === "") { let userNuevo = [] }
-    else { userNuevo = JSON.parse(userJSON) }
-
-    userNuevo.push(usuarioNuevo)
-    let userAux = JSON.stringify(userNuevo, null, "\t")
-    fs.writeFileSync(userFilePath, userAux)
-
-    res.redirect('/')
-
-})
-
-const PORT = 3001
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-    console.log("Servidor corriendo en el puerto ", PORT)
-})
+    console.log("Servidor corriendo en el puerto ", PORT);
+});
